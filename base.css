@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(0, 136, 0);
+}
+
+#page-wrapper {
+  width: 960px;
+  background-color: white;
+  margin: 0 auto; 
+  padding: 1em;
+}
+
+#page-header, #content, #navbar {
+  padding: 0 1em;
+}
+
+#page-header {
+  padding-top: 1em;
+}
+
+#page-header img {
+  vertical-allign: middle;
+}
+
+#page-header h1 {
+  font: italic bold 3em Georgia, Times, serif;
+  display: inline-block;
+  margin: 0;
+  vertical-allign: middle;
+}
+#page-header h2 {
+  font: semi-bold 1.5em Georgia, Times, serif;
+}
+
+#navbar {
+  background-color: #333;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar a {
+  color: #CCFFCC;
+  text-decoration: none;
+  padding: 0.25em;
+  display: inline-block;
+}
+
+#navbar a:hover {
+  background-color: #666;
+  text-shadow: 2px 2px #333;
+}
+
+#page-title h1 {
+  font: bold 1.8em georgia, times, serif;
+}
+#content h2 {
+  font: semi-bold 1.5em Georgia, times, serif;
+}
+#content {
+  font: 1em verdana, helvetica, arial, sans serif;
+}
